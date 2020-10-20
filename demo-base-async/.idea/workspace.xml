@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="760e1661-908d-4516-bfac-87466a9758e6" name="Default Changelist" comment="" />
+    <list default="true" id="760e1661-908d-4516-bfac-87466a9758e6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/service-api/target/" />
@@ -23,8 +25,11 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/lagou/XMLConsumerMain.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="418">
-                  <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+                <state relative-caret-position="44">
+                  <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="35" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -37,7 +42,7 @@
             <entry file="file://$PROJECT_DIR$/service-consumer/src/main/resources/consumer.xml">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="308">
-                  <caret line="14" column="8" lean-forward="true" selection-end-line="14" selection-end-column="8" />
+                  <caret line="14" column="8" selection-end-line="14" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -90,10 +95,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-122" />
-    <option name="y" value="107" />
-    <option name="width" value="1943" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="832" />
+    <option name="y" value="187" />
+    <option name="width" value="1410" />
     <option name="height" value="1025" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -105,69 +110,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="demo-base-async" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-base-async" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-base-async" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-base-async" type="462c0819:PsiDirectoryNode" />
-              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-base-async" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-base-async" type="462c0819:PsiDirectoryNode" />
-              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-base-async" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-base-async" type="462c0819:PsiDirectoryNode" />
-              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-base-async" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-base-async" type="462c0819:PsiDirectoryNode" />
-              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-base-async" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-base-async" type="462c0819:PsiDirectoryNode" />
-              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lagou" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-base-async" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-base-async" type="462c0819:PsiDirectoryNode" />
-              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-base-async" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-base-async" type="462c0819:PsiDirectoryNode" />
-              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -265,18 +208,17 @@
       <updated>1602750463000</updated>
       <workItem from="1602750467160" duration="7436000" />
       <workItem from="1603185225628" duration="177000" />
-      <workItem from="1603193240940" duration="1255000" />
+      <workItem from="1603193240940" duration="1968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8868000" />
+    <option name="totallyTimeSpent" value="9581000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="666" y="150" width="1128" height="820" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18297587" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2551402" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -285,7 +227,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16147308" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16569768" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.23937677" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -471,17 +413,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/lagou/XMLConsumerMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-consumer/src/main/resources/consumer.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="14" column="8" lean-forward="true" selection-end-line="14" selection-end-column="8" />
+          <caret line="14" column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/lagou/XMLConsumerMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

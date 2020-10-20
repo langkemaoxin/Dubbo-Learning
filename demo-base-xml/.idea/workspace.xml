@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43c01253-bdc3-489d-89bd-088838b5239b" name="Default Changelist" comment="" />
+    <list default="true" id="43c01253-bdc3-489d-89bd-088838b5239b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../demo-base-threadPool/dubbo-spi-threadpool/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-base-threadPool/dubbo-spi-threadpool/src/main/java/com/lagou/threadpool/WatchingThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-base-threadPool/dubbo-spi-threadpool/src/main/resources/META-INF/dubbo/org.apache.dubbo.common.threadpool.ThreadPool" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-base/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-base-async/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo-base-async/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-base-xml.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-provider/src/main/resources/dubbo-provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-provider/src/main/resources/dubbo-provider.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-base/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo-base/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/service-api/target/" />
@@ -40,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/service-provider/src/main/java/com/lagou/service/impl/HelloServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -96,8 +107,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service-provider/src/main/resources/dubbo-provider.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="88">
+              <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -123,6 +134,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -133,9 +147,9 @@
         <option value="$PROJECT_DIR$/service-provider/src/main/java/com/lagou/ProviderApplication.java" />
         <option value="$PROJECT_DIR$/service-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/service-consumer/src/main/java/com/lagou/ConsumerApplication.java" />
-        <option value="$PROJECT_DIR$/service-provider/src/main/resources/dubbo-provider.xml" />
         <option value="$PROJECT_DIR$/service-consumer/src/main/resources/dubbo-consumer.xml" />
         <option value="$PROJECT_DIR$/service-consumer/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/service-provider/src/main/resources/dubbo-provider.xml" />
       </list>
     </option>
   </component>
@@ -153,18 +167,18 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="690" />
-    <option name="y" value="33" />
-    <option name="width" value="1720" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="561" />
+    <option name="y" value="256" />
+    <option name="width" value="1410" />
     <option name="height" value="1025" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -176,40 +190,6 @@
             <path>
               <item name="demo-base-xml" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo-base-xml" type="462c0819:PsiDirectoryNode" />
-              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-base-xml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-base-xml" type="462c0819:PsiDirectoryNode" />
-              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-base-xml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-base-xml" type="462c0819:PsiDirectoryNode" />
-              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-base-xml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-base-xml" type="462c0819:PsiDirectoryNode" />
-              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-base-xml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-base-xml" type="462c0819:PsiDirectoryNode" />
-              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-base-xml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-base-xml" type="462c0819:PsiDirectoryNode" />
               <item name="service-provider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -224,23 +204,6 @@
               <item name="service-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-base-xml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-base-xml" type="462c0819:PsiDirectoryNode" />
-              <item name="service-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-base-xml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-base-xml" type="462c0819:PsiDirectoryNode" />
-              <item name="service-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-base-xml" type="b2602c69:ProjectViewProjectNode" />
@@ -249,26 +212,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-base-xml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-base-xml" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-base-xml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo-base" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -295,7 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConsumerApplication">
+  <component name="RunManager" selected="Application.ProviderApplication">
     <configuration name="ConsumerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lagou.ConsumerApplication" />
       <module name="service-consumer" />
@@ -324,8 +280,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConsumerApplication" />
         <item itemvalue="Application.ProviderApplication" />
+        <item itemvalue="Application.ConsumerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -343,17 +299,18 @@
       <workItem from="1603027849792" duration="1299000" />
       <workItem from="1603118344439" duration="107000" />
       <workItem from="1603185249824" duration="152000" />
+      <workItem from="1603202901556" duration="39000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3897000" />
+    <option name="totallyTimeSpent" value="3936000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="552" y="27" width="1376" height="820" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29514417" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -419,6 +376,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/service-provider/src/main/java/com/lagou/service/impl/HelloServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/service-provider/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -467,17 +431,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-provider/src/main/java/com/lagou/service/impl/HelloServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-provider/src/main/resources/dubbo-provider.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="88">
+          <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
         </state>
       </provider>
     </entry>
