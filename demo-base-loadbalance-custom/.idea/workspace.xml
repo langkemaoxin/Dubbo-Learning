@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="760e1661-908d-4516-bfac-87466a9758e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../demo-base-loadbalance-custom/dubbo-spi-loadbalance/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-spi-loadbalance/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-spi-loadbalance/src/main/java/com/lagou/loadbalance/OnlyFirstLoadBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-spi-loadbalance/src/main/resources/META-INF/dubbo/org.apache.dubbo.rpc.cluster.LoadBalance" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-base-loadbalance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo-base-loadbalance/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/service-api/target/" />
     <ignored path="$PROJECT_DIR$/service-provider/target/" />
     <ignored path="$PROJECT_DIR$/service-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-spi-loadbalance/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,32 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-provider/src/main/java/com/lagou/DubboPureMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-provider/src/main/java/com/lagou/DubboPureMain1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/lagou/bean/ConsumerComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="242">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,19 +38,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-consumer/src/main/resources/dubbo-consumer.properties">
+        <entry file="file://$PROJECT_DIR$/dubbo-spi-loadbalance/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+            <state relative-caret-position="374">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-provider/src/main/java/com/lagou/DubboPureMain2.java">
+        <entry file="file://$PROJECT_DIR$/dubbo-spi-loadbalance/src/main/java/com/lagou/loadbalance/OnlyFirstLoadBalance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+            <state relative-caret-position="426">
+              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-spi-loadbalance/src/main/resources/META-INF/dubbo/org.apache.dubbo.rpc.cluster.LoadBalance">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="46" selection-start-column="46" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -76,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/lagou/AnnotationConsumerMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="186">
               <caret line="24" column="33" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -115,11 +109,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-provider/src/main/java/com/lagou/service/impl/HelloServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
+            <state relative-caret-position="154">
               <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-consumer/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
         </entry>
@@ -146,14 +149,17 @@
         <option value="$PROJECT_DIR$/service-provider/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/service-provider/src/main/resources/dubbo-provider.properties" />
         <option value="$PROJECT_DIR$/service-provider/src/main/java/com/lagou/DubboPureMain.java" />
-        <option value="$PROJECT_DIR$/service-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/service-consumer/src/main/resources/dubbo-consumer.properties" />
         <option value="$PROJECT_DIR$/service-consumer/src/main/java/com/lagou/AnnotationConsumerMain.java" />
         <option value="$PROJECT_DIR$/service-provider/src/main/resources/dubbo-provider1.properties" />
         <option value="$PROJECT_DIR$/service-provider/src/main/resources/dubbo-provider2.properties" />
         <option value="$PROJECT_DIR$/service-provider/src/main/java/com/lagou/DubboPureMain1.java" />
         <option value="$PROJECT_DIR$/service-provider/src/main/java/com/lagou/DubboPureMain2.java" />
+        <option value="$PROJECT_DIR$/dubbo-spi-loadbalance/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-spi-loadbalance/src/main/resources/META-INF/dubbo/org.apache.dubbo.rpc.cluster.LoadBalance" />
+        <option value="$PROJECT_DIR$/dubbo-spi-loadbalance/src/main/java/com/lagou/loadbalance/OnlyFirstLoadBalance.java" />
         <option value="$PROJECT_DIR$/service-provider/src/main/java/com/lagou/service/impl/HelloServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/service-consumer/src/main/java/com/lagou/bean/ConsumerComponent.java" />
       </list>
     </option>
@@ -173,30 +179,134 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="397" />
-    <option name="y" value="128" />
-    <option name="width" value="1410" />
+    <option name="x" value="55" />
+    <option name="y" value="142" />
+    <option name="width" value="1943" />
     <option name="height" value="1025" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="demo-base-loadbalance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-base-loadbalance" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-base-loadbalance-custom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-base-loadbalance-custom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-base-loadbalance-custom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-base-loadbalance-custom" type="462c0819:PsiDirectoryNode" />
+              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-base-loadbalance-custom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-base-loadbalance-custom" type="462c0819:PsiDirectoryNode" />
+              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-base-loadbalance-custom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-base-loadbalance-custom" type="462c0819:PsiDirectoryNode" />
+              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-base-loadbalance-custom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-base-loadbalance-custom" type="462c0819:PsiDirectoryNode" />
+              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-base-loadbalance-custom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-base-loadbalance-custom" type="462c0819:PsiDirectoryNode" />
+              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lagou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-base-loadbalance-custom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-base-loadbalance-custom" type="462c0819:PsiDirectoryNode" />
+              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-base-loadbalance-custom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-base-loadbalance-custom" type="462c0819:PsiDirectoryNode" />
+              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-base-loadbalance-custom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-base-loadbalance-custom" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-base-loadbalance-custom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-base-loadbalance-custom" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-base-loadbalance-custom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-base-loadbalance-custom" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-base-loadbalance-custom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-base-loadbalance-custom" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-base-loadbalance-custom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-base-loadbalance-custom" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lagou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-base-loadbalance-custom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-base-loadbalance-custom" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-base-loadbalance-custom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-base-loadbalance-custom" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,17 +418,18 @@
       <updated>1602750463000</updated>
       <workItem from="1602750467160" duration="7436000" />
       <workItem from="1603185393498" duration="1809000" />
-      <workItem from="1603187312760" duration="730000" />
+      <workItem from="1603187471878" duration="1298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9975000" />
+    <option name="totallyTimeSpent" value="10543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29088473" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29088473" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -327,7 +438,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30410182" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30311614" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2394775" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -419,13 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-consumer/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -488,16 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/lagou/AnnotationConsumerMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-provider/src/main/resources/dubbo-provider.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -519,10 +613,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-spi-loadbalance/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-spi-loadbalance/src/main/resources/META-INF/dubbo/org.apache.dubbo.rpc.cluster.LoadBalance">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-spi-loadbalance/src/main/java/com/lagou/loadbalance/OnlyFirstLoadBalance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/service-provider/src/main/java/com/lagou/service/impl/HelloServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="154">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/lagou/AnnotationConsumerMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -531,8 +666,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/lagou/bean/ConsumerComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state relative-caret-position="242">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
