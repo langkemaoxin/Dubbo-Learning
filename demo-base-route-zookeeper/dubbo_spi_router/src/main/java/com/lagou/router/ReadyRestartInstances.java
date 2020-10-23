@@ -11,13 +11,24 @@ import org.springframework.util.CollectionUtils;
 
 import java.util.*;
 
-//路径节点变化时，调用此方法
+//预发布的路径管理器，用于缓存和监听所有的待灰度机器信息列表
+
+/***
+ * 如何构建此类？
+ * 1. 写好所有必须的属性 监听路径，机器列表
+ * 2. 如果当前类具有监听的功能，则需要实现相关的接口
+ * 3. 写好构造函数，一般的工具类，都可以写一个静态构造函数，编程一个单例类，把相关的初始化逻辑，放在指定的创建方法中
+ * 4. 对外暴露一个创建方法，写好初始化逻辑，如果当前实现了回调接口，则创建完对象后，对这个对象进行监听，并且返回
+ * 5. 我们创建一个回调监听的接口实现类时，这个类就具有了回调功能，只要这个类不被销毁，则事件进行回调时，
+ *    这个类中的，回调方法就会被调用
+ */
 public class ReadyRestartInstances implements PathChildrenCacheListener {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ReadyRestartInstances.class);
 
     private static final String LISTEN_PATHS = "/lagou/dubbo/restart/instances";
 
+    //创建一个HashSet
     private Set<String> restartIntances = new HashSet<>();
 
     private final CuratorFramework zkClient;
@@ -36,22 +47,22 @@ public class ReadyRestartInstances implements PathChildrenCacheListener {
             if (stat == null) {
                 zooKeeperClient.create().creatingParentsIfNeeded().forPath(LISTEN_PATHS);
             }
-
-
-
         } catch (Exception e) {
             e.printStackTrace();
             LOGGER.error("确保基础路径存在！");
         }finally {
+
+            //这里直接创建一个对象
             final ReadyRestartInstances instances=new ReadyRestartInstances(zooKeeperClient);
 
-            //创建一个NodeCache对象
+            //创建一个NodeCache监听对象
             PathChildrenCache nodeCache=new PathChildrenCache(zooKeeperClient,LISTEN_PATHS,false);
 
             //节点缓存对象加入监听
             nodeCache.getListenable().addListener(instances);
 
             try {
+                //开始监听
                 nodeCache.start();
             } catch (Exception e) {
                 e.printStackTrace();
