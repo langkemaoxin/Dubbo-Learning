@@ -89,7 +89,7 @@ public class ReadyRestartInstances implements PathChildrenCacheListener {
     }
 
     //判断节点信息是否存在于列表中
-    public Boolean hasRestartingInstance(String applicationName, String host) throws Exception {
+    public Boolean hasRestartingInstance(String applicationName, String host)   {
         return restartIntances.contains(buildApplicationInstancsString(applicationName, host));
     }
 

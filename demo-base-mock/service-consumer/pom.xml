@@ -45,10 +45,5 @@
             <artifactId>dubbo-serialization-hessian2</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>com.lagou</groupId>
-            <artifactId>dubbo_spi_router</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
     </dependencies>
 </project>
